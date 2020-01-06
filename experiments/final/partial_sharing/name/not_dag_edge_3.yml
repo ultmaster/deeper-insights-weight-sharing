@@ -1,0 +1,20 @@
+batch_size: 256
+print_freq: 10
+dataset: CIFAR10
+w_grad_clip: 0.
+w_weight_decay: 1.0e-3
+epochs: 2000
+n_layers: 4
+n_nodes: 2
+search_all_alpha: true
+shared_policy: keyword_unshare
+shared_policy_kwargs:
+  kw:
+    - dag.1.1
+validate_instance: 64
+validate_epochs: 20
+cutout_length: 0
+w_lr: 0.025
+w_lr_min: 0.001
+w_lr_scheduler: cosine
+dense_validation_steps: 128

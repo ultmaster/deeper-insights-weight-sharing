@@ -1,0 +1,8 @@
+numpy
+graphviz
+torch
+torchvision
+tensorboard
+tensorboardX
+pyyaml
+git+https://github.com/Microsoft/pai@master#egg=openpaisdk&subdirectory=contrib/python-sdk

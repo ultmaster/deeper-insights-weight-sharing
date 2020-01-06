@@ -1,0 +1,3 @@
+batch_size: 48
+print_freq: 5
+dataset: CIFAR10
